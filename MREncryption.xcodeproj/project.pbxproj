@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67B7CB8D1F6BB6C6005C5982 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B7CB8C1F6BB6C6005C5982 /* main.m */; };
+		67B7CB901F6BB6C6005C5982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B7CB8F1F6BB6C6005C5982 /* AppDelegate.m */; };
+		67B7CB931F6BB6C6005C5982 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B7CB921F6BB6C6005C5982 /* ViewController.m */; };
+		67B7CB961F6BB6C6005C5982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B7CB941F6BB6C6005C5982 /* Main.storyboard */; };
+		67B7CB981F6BB6C6005C5982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B7CB971F6BB6C6005C5982 /* Assets.xcassets */; };
+		67B7CB9B1F6BB6C6005C5982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B7CB991F6BB6C6005C5982 /* LaunchScreen.storyboard */; };
+		67B7CBA51F6BB6E6005C5982 /* MREncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B7CBA41F6BB6E6005C5982 /* MREncryption.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67B7CB881F6BB6C6005C5982 /* MREncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MREncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B7CB8C1F6BB6C6005C5982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67B7CB8E1F6BB6C6005C5982 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67B7CB8F1F6BB6C6005C5982 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67B7CB911F6BB6C6005C5982 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67B7CB921F6BB6C6005C5982 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67B7CB951F6BB6C6005C5982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67B7CB971F6BB6C6005C5982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67B7CB9A1F6BB6C6005C5982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67B7CB9C1F6BB6C6005C5982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B7CBA31F6BB6E6005C5982 /* MREncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MREncryption.h; sourceTree = "<group>"; };
+		67B7CBA41F6BB6E6005C5982 /* MREncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MREncryption.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B7CB851F6BB6C6005C5982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B7CB7F1F6BB6C6005C5982 = {
+			isa = PBXGroup;
+			children = (
+				67B7CBA21F6BB6D8005C5982 /* Classes */,
+				67B7CB8A1F6BB6C6005C5982 /* MREncryption */,
+				67B7CB891F6BB6C6005C5982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67B7CB891F6BB6C6005C5982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B7CB881F6BB6C6005C5982 /* MREncryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67B7CB8A1F6BB6C6005C5982 /* MREncryption */ = {
+			isa = PBXGroup;
+			children = (
+				67B7CB8E1F6BB6C6005C5982 /* AppDelegate.h */,
+				67B7CB8F1F6BB6C6005C5982 /* AppDelegate.m */,
+				67B7CB911F6BB6C6005C5982 /* ViewController.h */,
+				67B7CB921F6BB6C6005C5982 /* ViewController.m */,
+				67B7CB941F6BB6C6005C5982 /* Main.storyboard */,
+				67B7CB971F6BB6C6005C5982 /* Assets.xcassets */,
+				67B7CB991F6BB6C6005C5982 /* LaunchScreen.storyboard */,
+				67B7CB9C1F6BB6C6005C5982 /* Info.plist */,
+				67B7CB8B1F6BB6C6005C5982 /* Supporting Files */,
+			);
+			path = MREncryption;
+			sourceTree = "<group>";
+		};
+		67B7CB8B1F6BB6C6005C5982 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B7CB8C1F6BB6C6005C5982 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67B7CBA21F6BB6D8005C5982 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67B7CBA31F6BB6E6005C5982 /* MREncryption.h */,
+				67B7CBA41F6BB6E6005C5982 /* MREncryption.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B7CB871F6BB6C6005C5982 /* MREncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B7CB9F1F6BB6C6005C5982 /* Build configuration list for PBXNativeTarget "MREncryption" */;
+			buildPhases = (
+				67B7CB841F6BB6C6005C5982 /* Sources */,
+				67B7CB851F6BB6C6005C5982 /* Frameworks */,
+				67B7CB861F6BB6C6005C5982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MREncryption;
+			productName = MREncryption;
+			productReference = 67B7CB881F6BB6C6005C5982 /* MREncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67B7CB801F6BB6C6005C5982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "MRXIR Inc";
+				TargetAttributes = {
+					67B7CB871F6BB6C6005C5982 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4HXKSPK349;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 67B7CB831F6BB6C6005C5982 /* Build configuration list for PBXProject "MREncryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67B7CB7F1F6BB6C6005C5982;
+			productRefGroup = 67B7CB891F6BB6C6005C5982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67B7CB871F6BB6C6005C5982 /* MREncryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B7CB861F6BB6C6005C5982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B7CB9B1F6BB6C6005C5982 /* LaunchScreen.storyboard in Resources */,
+				67B7CB981F6BB6C6005C5982 /* Assets.xcassets in Resources */,
+				67B7CB961F6BB6C6005C5982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B7CB841F6BB6C6005C5982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B7CB931F6BB6C6005C5982 /* ViewController.m in Sources */,
+				67B7CB901F6BB6C6005C5982 /* AppDelegate.m in Sources */,
+				67B7CB8D1F6BB6C6005C5982 /* main.m in Sources */,
+				67B7CBA51F6BB6E6005C5982 /* MREncryption.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67B7CB941F6BB6C6005C5982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B7CB951F6BB6C6005C5982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67B7CB991F6BB6C6005C5982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B7CB9A1F6BB6C6005C5982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67B7CB9D1F6BB6C6005C5982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67B7CB9E1F6BB6C6005C5982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67B7CBA01F6BB6C6005C5982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4HXKSPK349;
+				INFOPLIST_FILE = MREncryption/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrxir.MREncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67B7CBA11F6BB6C6005C5982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4HXKSPK349;
+				INFOPLIST_FILE = MREncryption/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrxir.MREncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B7CB831F6BB6C6005C5982 /* Build configuration list for PBXProject "MREncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B7CB9D1F6BB6C6005C5982 /* Debug */,
+				67B7CB9E1F6BB6C6005C5982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B7CB9F1F6BB6C6005C5982 /* Build configuration list for PBXNativeTarget "MREncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B7CBA01F6BB6C6005C5982 /* Debug */,
+				67B7CBA11F6BB6C6005C5982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67B7CB801F6BB6C6005C5982 /* Project object */;
+}
